@@ -1,0 +1,27 @@
+:root{
+    --base: #8fc218;
+    --spacing: 100px;
+    --blur: 10px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: var(--blur);
+}
+
+.h1{
+    color: var(--base);
+}
+
+body{
+    background: #193549;
+    color: white;
+    font-family: "helvetica neue", sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
