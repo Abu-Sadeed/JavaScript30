@@ -28,7 +28,7 @@ function paintTOCanvas(){
         //pixels = redEffect(pixels);
         //pixels = rgbSplit(pixels);
         pixels = greenScreen(pixels);
-        ctx.globalAlpha = 0.1;
+        //ctx.globalAlpha = 0.1;
         ctx.putImageData(pixels, 0, 0);
     }, 16);
 }
